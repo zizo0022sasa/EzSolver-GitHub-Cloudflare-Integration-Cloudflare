@@ -1,0 +1,46 @@
+{
+  "name": "pixverse",
+  "version": "1.4.16",
+  "description": "CLI for PixVerse — create AI videos and images from the command line",
+  "keywords": [
+    "ai",
+    "ai-image",
+    "ai-video",
+    "aigc",
+    "cli",
+    "generative-ai",
+    "pixverse"
+  ],
+  "homepage": "https://github.com/PixVerseAI/cli#readme",
+  "bugs": {
+    "url": "https://github.com/PixVerseAI/cli/issues"
+  },
+  "license": "MIT",
+  "author": "PixVerse <app@pixverse.ai>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixVerseAI/cli.git"
+  },
+  "bin": {
+    "pixverse": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1147.0",
+    "@clack/prompts": "^1.7.0",
+    "ali-oss": "6.23.0",
+    "commander": "^15.0.0",
+    "conf": "^15.1.0",
+    "ky": "^2.0.2",
+    "picocolors": "^1.1.1",
+    "sharp": "^0.35.3",
+    "uuid": "^14.0.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

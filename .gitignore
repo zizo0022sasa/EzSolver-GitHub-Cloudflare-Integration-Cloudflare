@@ -1,0 +1,31 @@
+# 🔒 أسرار وتوكنات خاصة (ممنوع رفعها نهائياً)
+GITHUB_TOKEN.local.txt
+*.local.txt
+*.local.md
+*token*
+*credential*
+
+# 🛡️ حسابات المستخدمين وكلمات السر والـ JWT
+accounts_pixverse.json
+accounts_*.json
+*.pkl
+
+# 📋 ملفات السجلات والكاش
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.out.log
+*.err.log
+daemon_out.log
+daemon_err.log
+
+# 🌐 متصفحات وملفات جلسات مؤقتة
+ts_profile/
+profile/
+.chrome/
+
+# ?? ?????? ??????? ?????
+Root/keys.txt
+*keys.txt
+
